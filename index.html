@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <script src="js/wow.min.js" defer></script>
     <script src="js/main.js" defer></script>
+    <script src="js/swiper-bundle.min.js"></script>
 </head>
 <body>
     <header class="hero">
@@ -82,37 +84,86 @@
         </section>
         <!-- /.features -->
 
-        <section class="section projects">
+        <section class="projects">
             <div class="container">
                 <h2 class="section-title">Последние проекты</h2>
-
-                <div class="project-slider">
-                    <div class="project-slide">
-                        <img src="image/project-img.png" alt="Сайт строительной фирмы “Велстрой”" class="project-image">
+                    <!-- Slider main container -->
+                    <div class="swiper-container projects-slider">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide projects-slide">
+                            <img src="image/camcorder59.png" alt="Сайт фирмы “Камеры59”" class="project-image">
                         <div class="project-text">
-                            <h3 class="project-title">Сайт строительной фирмы “Велстрой”</h3>
+                            <h3 class="project-title">Сайт фирмы “Камеры59”</h3>
                             <div class="project-time">
-                                <img src="image/time-icon.svg" alt="" class="project-icon">
+                                <img src="image/time-icon.svg" alt="срок" class="project-icon">
                                 <div class="project-description">
-                                    
+                                    <h4 class="project-subtitle">Сроки</h4>
+                                    <p class="project-paragraph">4 работчих дня</p>
                                 </div>
                                 <!-- /.project-description -->
                             </div>
                             <!-- /.project-time -->
                             <div class="project-cost">
-
+                                <img src="image/cost-icon.svg" alt="стоимость" class="project-icon">
+                                <div class="project-description">
+                                    <h4 class="project-subtitle">Стоимость</h4>
+                                    <p class="project-paragraph">7000 рублей</p>
+                                </div>
                             </div>
                             <!-- /.project-cost -->
-                            <div class="project-feedback">
+                            <div class="projects-feedback">
+                                <img src="image/feedback-icon.svg" alt="отзыв" class="project-icon">
+                                <div class="project-description">
+                                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                                    <p class="project-paragraph">Рaбота выполнена в срок в соответсвии со всеми требованиями</p>
+                                    <a href="https://камеры59.рф/" class="contacts-link">https://камеры59.рф/</a>
+                                </div>
+                            </div>
+                            <!-- /.project-feedback -->
+                                
 
+                        </div>
+                        <!-- /.project-text -->
+                        </div>
+                        <div class="swiper-slide projects-slide">
+                            <img src="image/ediblebouquet.png" alt="Сайт фирмы “Съедобные букеты”" class="project-image">
+                        <div class="project-text">
+                            <h3 class="project-title">Сайт фирмы “Съедобные букеты”</h3>
+                            <div class="project-time">
+                                <img src="image/time-icon.svg" alt="срок" class="project-icon">
+                                <div class="project-description">
+                                    <h4 class="project-subtitle">Сроки</h4>
+                                    <p class="project-paragraph">2 работчих дня</p>
+                                </div>
+                                <!-- /.project-description -->
+                            </div>
+                            <!-- /.project-time -->
+                            <div class="project-cost">
+                                <img src="image/cost-icon.svg" alt="стоимость" class="project-icon">
+                                <div class="project-description">
+                                    <h4 class="project-subtitle">Стоимость</h4>
+                                    <p class="project-paragraph">4000 рублей</p>
+                                </div>
+                            </div>
+                            <!-- /.project-cost -->
+                            <div class="projects-feedback">
+                                <img src="image/feedback-icon.svg" alt="отзыв" class="project-icon">
+                                <div class="project-description">
+                                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                                    <p class="project-paragraph">Рaбота выполнена в срок в соответсвии со всеми требованиями</p>
+                                    <a href="https://sedobnyebukety.ru/" class="contacts-link">https://sedobnyebukety.ru/</a>
+                                </div>
                             </div>
                             <!-- /.project-feedback -->
                         </div>
                         <!-- /.project-text -->
+                        </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="projects-pagination"></div>
                     </div>
-                    <!-- /.project-slide -->
-                </div>
-                <!-- /.project-slider -->
 
             </div>
             <!-- /.container -->
@@ -120,7 +171,7 @@
         </section>
     </main>
 
-    <footer class="section">
+    <footer class="section end">
         <div class="container">
             <h2 class="section-title">Свяжитесь со мной</h2>
             <div class="contacts-block">
@@ -147,8 +198,6 @@
                         <div class="contacts-social">
                             <h4 class="contacts-title">Соцсети</h4>
                             <a href="https://vk.com/hemulkin" class="contacts-link">https://vk.com/hemulkin</a>
-                            <a href="#" class="contacts-link">link</a>
-                            <a href="#" class="contacts-link">link</a>
                         </div>
                         <!-- /.contacts-social -->
                     </div>
